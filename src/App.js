@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './CSS Files/App.css';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import About from './Components/About';
+import Features from './Components/Features';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import CallToAction from './Components/CallToAction'
+import CurrentWeather from './Components/Weather Data Fetching/CurrentWeather';
+import Astronomy from './Components/Weather Data Fetching/Astronomy';
+import AirQuality from './Components/Weather Data Fetching/AirQuality';
+import ForecastWeather from './Components/Weather Data Fetching/ForecastWeather'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={(
+            <>
+              <Navbar />
+              <About />
+              <Features />
+              <CallToAction />
+              <Footer />
+            </>
+          )} />
+          <Route path='/currentweather' element={<CurrentWeather />} />
+          <Route path='/astronomy' element={<Astronomy />} />
+          <Route path='/airquality' element={<AirQuality />} />
+          <Route path='/forecastweather' element={<ForecastWeather />} />
+        </Routes>
+
+      </Router>
+    </>
   );
 }
 

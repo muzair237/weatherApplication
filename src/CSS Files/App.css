@@ -1,0 +1,440 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+p,
+a {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+/*-------------------------------Starting of Navbar Component-----------------------------------------------*/
+.backgroundImage {
+  background-image: url("../Images/Maroon\ Background.jpg");
+  
+}
+
+.logo {
+  width: 3rem;
+}
+
+.hicons,
+.nav-link {
+  font-weight: 700;
+  transition: transform .3s;
+  color: #e3ebe7dd;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.hicons:hover {
+  transform: scale(1.2);
+  color: rgb(243, 99, 99);
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  transform: scale(1.01);
+  color: rgb(239, 117, 117);
+  font-size: 1rem;
+}
+
+.headerText {
+  text-align: center;
+  margin-top: 6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.headerText:hover {
+  transform: scale(1.02);
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.headerText h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #77aeaa;
+  transition: all 0.5s ease-in-out;
+}
+
+.headerText p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6faeaa;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .headerText:hover h1 {
+  color: rgba(161, 174, 160, 0.563);
+  
+}
+
+.headerText:hover p {
+  color: rgba(131, 172, 126, 0.563);
+} */
+
+
+/*-------------------------------Ending of Navbar Component-----------------------------------------------*/
+
+/*-------------------------------Starting of About Component-----------------------------------------------*/
+
+.aboutSection,
+.featureSection {
+  background-color: rgb(232, 232, 211);
+}
+
+.aboutSection h1,
+.featureSection h1 {
+  font-weight: 900;
+}
+
+.featureSection h1 {
+  font-weight: 900;
+  margin-top: -7px;
+  margin-bottom: 9px;
+}
+
+.aboutSection p {
+  font-size: 1.13rem;
+  font-weight: 600;
+}
+
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body h5 {
+  font-weight: 700;
+  font-size: 1.22rem;
+}
+
+.card-body p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  border-radius: 10px;
+  border-color: rgb(27, 11, 169);
+  border: 2px;
+  color: rgb(163, 9, 32);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/*-------------------------------Ending of About Component-----------------------------------------------*/
+
+
+/*-------------------------------Starting of Call to Action Component-----------------------------------------------*/
+.callToAction {
+  /* background-color: rgb(232, 232, 211); */
+  background-image: url('../Images/Maroon\ Background.jpg');
+  color: wheat;
+}
+
+.callToAction h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 46px;
+  font-weight: 700;
+  font-size: 34px;
+}
+.callToAction h4 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.callToAction .text{
+  margin: auto;
+  width: 30rem;
+}
+.callToAction .button{
+  width: 7rem;
+  height: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 7px;
+  border-color: white;
+  color: wheat;
+  background-color: #592c3b;
+  transition: all 0.2s ease-in-out;
+}
+.callToAction .button:hover{
+  background-color: rgb(255, 245, 203);
+  color: black;
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/*-------------------------------Ending of Call to Action Component-----------------------------------------------*/
+
+/*-------------------------------Starting of Footer Component-----------------------------------------------*/
+
+.footer {
+  background-color: #592c3b;
+}
+
+.footer h4 {
+  font-weight: 700;
+}
+
+.footer p {
+  font-weight: 500;
+}
+
+.socialIcons a {
+  font-size: 18px;
+  color: white;
+}
+
+.socialIcons a:not(:first-child) {
+  margin-left: 20px;
+}
+
+.footerIcons a {
+  text-decoration: none;
+  margin-left: 9px;
+  color: white;
+}
+
+.footerFeatures p {
+  margin-bottom: 7px;
+}
+
+.footer a {
+  transition: all 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  color: rgb(245, 219, 172);
+}
+
+/*-------------------------------Ending of Footer Component-----------------------------------------------*/
+
+
+/*-------------------------------Starting of Astronomy Component-----------------------------------------------*/
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.image-text-container img {
+  margin-right: 0.5rem; /* Optional: Add spacing between the image and text */
+}
+.astronomyData{
+  font-size: 12px;
+}
+.airQuality-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.airQuality-text-container h5 {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+.airQuality-text-container p {
+  margin-top: 3px; /* Adjust the spacing as needed */
+}
+
+/*-------------------------------Ending of Astronomy Component-----------------------------------------------*/
+
+
+/*-------------------------------Starting of Media Queries-----------------------------------------------*/
+
+@media (max-width: 576px) {
+  .headerText h1 {
+    font-size: 1.9rem;
+  }
+
+  .headerText p {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul.navbar-nav li {
+    padding-left: 0.5rem;
+  }
+
+  .card h5 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 1rem
+  }
+
+  .footer .col-md-4 h4 {
+    font-size: 17px;
+  }
+
+  .footer .col-md-4 p {
+    font-size: 15.5px;
+  }
+  .callToAction .heading h2 {
+    font-size: 1.5rem;
+    line-height: 35px;
+  }
+  .callToAction .text{
+    margin-left: -23px;
+  }
+}
+
+/* Media query for screen sizes between 576px and 768px */
+@media (min-width: 576px) and (max-width: 768px) {
+  .headerText h1 {
+    font-size: 2.1rem;
+  }
+
+  .headerText p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  ul.navbar-nav li {
+    padding-left: 0.8rem;
+  }
+
+  .card h5 {
+    font-size: 1.15rem;
+  }
+
+  .card p {
+    font-size: 1.1rem
+  }
+
+  .footer .col-md-4 {
+    margin-bottom: 10px;
+  }
+
+  .footer .col-md-4 h4 {
+    font-size: 19px;
+  }
+
+  .footer .col-md-4 p {
+    font-size: 16.5px;
+  }
+  .callToAction .heading h2 {
+    font-size: 31.5px;
+    line-height: 39px;
+  }
+}
+
+/* Media query for screens between 768px and 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .headerText h1 {
+    font-size: 2.3rem;
+  }
+
+  .headerText p {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  ul.navbar-nav li {
+    padding-left: 1.2rem;
+  }
+
+  .card h5 {
+    font-size: 1.15rem;
+  }
+
+  .card p {
+    font-size: 1.1rem
+  }
+
+  .footer .col-md-4:nth-child(2) {
+    padding-left: 47px;
+  }
+
+  .footer .col-md-4 h4 {
+    font-size: 19px;
+  }
+
+  .footer .col-md-4 p {
+    font-size: 16.5px;
+  }
+  .callToAction .heading h2 {
+    font-size: 30.5px;
+    line-height: 39px;
+  }
+}
+
+/* Media query for screens between 992px and 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .headerText h1 {
+    font-size: 2.5rem;
+  }
+
+  .headerText p {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .footer .col-md-4:nth-child(2) {
+    padding-left: 85px;
+  }
+
+}
+
+.footer .col-md-4 h4 {
+  font-size: 19px;
+}
+
+.footer .col-md-4 p {
+  font-size: 16.5px;
+}
+.callToAction h2 {
+  font-size: 33px;
+}
+
+@media (min-width: 1201px) {
+  .footer .col-md-4:nth-child(2) {
+    padding-left: 130px;
+  }
+
+  .footer .col-md-4 h4 {
+    font-size: 19px;
+  }
+
+  .footer .col-md-4 p {
+    font-size: 16.5px;
+  }
+  .callToAction h2 {
+    font-size: 34px;
+  }
+}
+
+/*-------------------------------Ending of Media Queries-----------------------------------------------*/
+
+
+/*-------------------------------Starting of Astronomy Component-----------------------------------------------*/
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.9rem;
+}
+
+.image-text-container img {
+  margin-right: 0.5rem; /* Optional: Add spacing between the image and text */
+}
+/*-------------------------------Ending of Astronomy Component-----------------------------------------------*/
