@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/weatherApplication/static/css/main.12dce3a2.css",
+    "main.js": "/weatherApplication/static/js/main.0983119e.js",
+    "static/js/787.d9312eb8.chunk.js": "/weatherApplication/static/js/787.d9312eb8.chunk.js",
+    "static/media/Maroon Background.jpg": "/weatherApplication/static/media/Maroon Background.6440bce702b6959e66a6.jpg",
+    "static/media/airquality.png": "/weatherApplication/static/media/airquality.ae770d93063db4ffc369.png",
+    "static/media/astronomy.png": "/weatherApplication/static/media/astronomy.43abc6027708a6f5d4a9.png",
+    "static/media/history.png": "/weatherApplication/static/media/history.daaf53d8b64f55db1ad1.png",
+    "static/media/realtimeweather.png": "/weatherApplication/static/media/realtimeweather.502a6d66b80c6ff54912.png",
+    "static/media/logo.png": "/weatherApplication/static/media/logo.000ca0bff5d522377e37.png",
+    "static/media/moonPhase.png": "/weatherApplication/static/media/moonPhase.7e62ceda2bae562b0883.png",
+    "static/media/moonIllumination.png": "/weatherApplication/static/media/moonIllumination.a19e3b93b71ed46b3178.png",
+    "static/media/forecast.png": "/weatherApplication/static/media/forecast.90e568516355eb89ad0d.png",
+    "static/media/moonrise.png": "/weatherApplication/static/media/moonrise.08908ac60c71672fc8a5.png",
+    "static/media/moonset.png": "/weatherApplication/static/media/moonset.1f44a88b7ce9c3d9482c.png",
+    "index.html": "/weatherApplication/index.html",
+    "main.12dce3a2.css.map": "/weatherApplication/static/css/main.12dce3a2.css.map",
+    "main.0983119e.js.map": "/weatherApplication/static/js/main.0983119e.js.map",
+    "787.d9312eb8.chunk.js.map": "/weatherApplication/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12dce3a2.css",
+    "static/js/main.0983119e.js"
+  ]
+}
